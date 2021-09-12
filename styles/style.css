@@ -1,0 +1,42 @@
+/*html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}*/
+
+body {
+    margin: 0;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+}
+
+.header, .footer, .website-info {
+    background-color: #1F2937;
+}
+
+.header{
+    flex-grow: 0;
+}
+
+.website-info {
+    flex: 1;
+}
+
+.information-subsection {
+    flex: 1;
+}
+
+.quote-subsection {
+    flex: 1;
+}
+
+.call-section {
+    flex: 1;
+}
+
+.footer{
+    flex-grow: 0;
+}
