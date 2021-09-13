@@ -153,6 +153,7 @@ a {
     margin: 100px 15%;
     padding: 40px 15%;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -163,7 +164,6 @@ a {
 
 .call-button {
     border-color: #F9FAF8;
-    margin-left: auto;
 }
 
 .footer{
