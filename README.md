@@ -1,8 +1,7 @@
 
 # Assignment from The Odin Project 
 ## Project: Landing Page
-### 
-
+### [demo link](https://n-pogorelskaia.github.io/landing-page-assignment/)
 
 
 
