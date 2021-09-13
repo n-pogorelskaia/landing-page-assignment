@@ -10,7 +10,7 @@ body {
     margin: 0;
     display:flex;
     flex-direction: column;
-    font-family: Helvetica, Verdana, sans-serif;
+    font-family: "Open sans", Helvetica, Verdana, sans-serif;
     color: #E5E7EB;
 }
 
@@ -48,7 +48,7 @@ a {
 .website-info {
     display: flex;
     align-items: center;
-    padding: 150px 15%;
+    padding: 100px 15%;
 }
 
 .info-main-text {
@@ -67,13 +67,14 @@ a {
     height: 30px;
     width: 80px;
     padding: 0 16px;
+    font-size: 16px;
     font-weight: 700;
     color:#F9FAF8;
-    line-height: 30px;
+    text-align: center;
+    line-height: 32px;
     border: 2px solid  #3882F6;
     background-color: #3882F6;
     border-radius: 5px;
-    text-align: center;
 }
 
 .info-image {
@@ -91,6 +92,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 20% 100px 20%;
 }
 
 .information-header {
@@ -101,7 +103,6 @@ a {
 }
 
 .cards {
-    padding: 0 20% 100px 20%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -117,7 +118,7 @@ a {
     height: 150px;
     width: 150px ;
     border: 3px solid #3882F6;
-    border-radius: 18px;
+    border-radius: 10px;
     line-height: 150px;
     text-align: center;
 }
@@ -130,7 +131,7 @@ a {
 .quote-subsection {
     background-color: #E5E7EB;
     color: #1F2937;
-    padding: 100px 20%;
+    padding: 100px 19%;
 }
 
 .quote {
@@ -140,11 +141,32 @@ a {
 }
 
 .signature {
-
+    text-align: end;
+    margin-right: 50px;
+    font-weight: 900;
+    font-size: 24px;
 }
 
-.call-section {
+.call-area {
+    background-color: #3882F6;
+    border-radius: 10px;
+    margin: 100px 15%;
+    padding: 40px 15%;
+    display: flex;
+    align-items: center;
+}
+
+.call-header {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.call-button {
+    border-color: #F9FAF8;
+    margin-left: auto;
 }
 
 .footer{
+    text-align: center;
+    padding: 30px;
 }
